@@ -3,6 +3,8 @@ git config --global user.name="gongbing"
 git config --global user.email="834718027@qq.com"  
 #ssh秘钥生成  
 ssh-keygen -t rsa -C "834718027@qq.com"  
+#测试,输入yes
+ssh -T git@gihub.com
 
 #初始化仓库  
 git init  
